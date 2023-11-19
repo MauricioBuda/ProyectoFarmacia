@@ -61,6 +61,44 @@
     width: 12rem;
     margin: 3rem;
 }
+
+@media screen and (max-width: 524px) {
+    .main_index{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .div1_menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div1_menu h1{
+        display: none;
+    }
+    
+    .div2_menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 0rem;
+        gap: 1rem;
+    }
+    
+    .div2_menu a, span{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+.img_menu{
+    width: 8rem;
+    margin: 1rem;
+}
 /* FIN MENÚ */
 
 
@@ -128,6 +166,72 @@
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-width: 524px) {
+    .section_recuadros{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 160px 160px 160px 160px;
+        grid-template-areas: 
+        "suc1 suc2 suc3"
+        "suc4 suc5 suc6"
+        "suc7 suc8 suc9"
+        "suc10 suc11 suc12"
+        ;
+    }
+    
+    .suc1{  
+        grid-area: suc1;
+    }
+    .suc2{
+        grid-area: suc2;
+    }
+    .suc3{
+        grid-area: suc3;
+    }
+    .suc4{
+        grid-area: suc4;
+    }
+    .suc5{
+        grid-area: suc5;
+    }
+    .suc6{
+        grid-area: suc6;
+    }
+    .suc7{
+        grid-area: suc7;
+    }
+    .suc8{
+        grid-area: suc8;
+    }
+    .suc9{
+        grid-area: suc9;
+    }
+    .suc10{
+        grid-area: suc10;
+    }
+    .suc11{
+        grid-area: suc11;
+    }
+    .suc12{
+        grid-area: suc12;
+    }
+    
+    .section_recuadros a{
+        text-align: center;
+        font-size: 1.5rem;
+        border: solid 1px black;
+        width: 28vw;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    }
+    
+}
+
 /*FIN RECUADROS */
 /*FIN INDEX */
 
@@ -161,4 +265,39 @@
 .miTabla a:hover{
     font-size: 1.6rem;
     color: blue;
+}
+
+@media screen and (max-width: 524px) {
+    .section_tabla_provincia{
+        margin: 0 5rem 2rem 5rem;
+    }
+    
+    .miTabla{
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    
+    .miTabla th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    .miTabla th {
+        font-size: 2rem;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+    
+    .miTabla tr{
+        font-size: 1.5rem;
+    }
+    
+    .miTabla a:hover{
+        font-size: 1.6rem;
+        color: blue;
+    }
 }
