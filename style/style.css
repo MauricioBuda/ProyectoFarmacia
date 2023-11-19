@@ -52,6 +52,11 @@
     text-align: center;
 }
 
+.div2_menu a:hover{
+    text-decoration-line: underline;
+    color: blue;
+}
+
 .img_menu{
     width: 12rem;
     margin: 3rem;
@@ -126,19 +131,34 @@
 /*FIN RECUADROS */
 /*FIN INDEX */
 
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+.section_tabla_provincia{
+    margin: 0 5rem 2rem 5rem;
 }
 
-th, td {
+.miTabla{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+.miTabla th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
 
-th {
+.miTabla th {
+    font-size: 2rem;
     background-color: #f2f2f2;
+    text-align: center;
+}
+
+.miTabla tr{
+    font-size: 1.5rem;
+}
+
+.miTabla a:hover{
+    font-size: 1.6rem;
+    color: blue;
 }
