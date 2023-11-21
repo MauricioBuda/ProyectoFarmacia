@@ -18,7 +18,6 @@
 
   a {
     text-decoration: none;
-    color: black;
   }
 /* FIN GENERALES */
 
@@ -50,6 +49,7 @@
 }
 
 .div2_menu a, span{
+    color: #0077c1;
     font-size: 2rem;
     text-align: center;
 }
@@ -89,9 +89,11 @@
         align-items: center;
         margin-right: 1rem;
         gap: 1rem;
+        color: #0077c1;
     }
     
     .div2_menu a, span{
+        
         font-size: 1.4rem;
         text-align: center;
     }
@@ -157,6 +159,8 @@
 }
 
 .section_recuadros a{
+    background-color:#0077c1;
+    color: white;
     text-align: center;
     font-size: 2rem;
     border: solid 1px black;
@@ -264,9 +268,13 @@
     font-size: 1.5rem;
 }
 
+.miTabla a{
+    color: blue;
+}
+
 .miTabla a:hover{
     font-size: 1.6rem;
-    color: blue;
+    color: #0077c1;
 }
 
 /* @media screen and (max-width: 524px) {
