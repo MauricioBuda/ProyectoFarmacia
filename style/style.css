@@ -60,7 +60,7 @@
 }
 
 .img_menu{
-    width: 12rem;
+    width: 40rem;
     margin: 3rem;
 }
 
@@ -97,12 +97,14 @@
         font-size: 1.4rem;
         text-align: center;
     }
+
+    .img_menu{
+        width: 8rem;
+        margin: 1rem;
+    }
 }
 
-.img_menu{
-    width: 8rem;
-    margin: 1rem;
-}
+
 /* FIN MENÚ */
 
 
@@ -275,6 +277,7 @@
 .miTabla a:hover{
     font-size: 1.6rem;
     color: #0077c1;
+    text-decoration: underline;
 }
 
 /* @media screen and (max-width: 524px) {
