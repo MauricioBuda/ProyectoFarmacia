@@ -17,7 +17,7 @@
   }
 
   a {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 /* FIN GENERALES */
 
@@ -103,8 +103,6 @@
         margin: 1rem;
     }
 }
-
-
 /* FIN MENÚ */
 
 
@@ -173,6 +171,10 @@
     align-items: center;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
 }
+.section_recuadros a:hover{
+    background-color: #075687;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 1);
+}
 
 @media screen and (max-width: 524px) {
     .section_recuadros{
@@ -239,77 +241,55 @@
     }
     
 }
-
 /*FIN RECUADROS */
 /*FIN INDEX */
 
+
+
+/* EMPIEZA TABLA */
 .section_tabla_provincia{
-    margin: 0 5rem 2rem 5rem;
+    margin: 0 5rem 2rem 5rem !important;
 }
 
 .miTabla{
-    width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
+    width: 100%!important;
+    overflow-x: auto!important;
+    white-space: nowrap!important;
+    border-collapse:separate;
 }
 
 
 .miTabla th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+    border: 1px solid #ddd!important;
+    padding: 8px!important;
+    text-align: left!important;
 }
 
 .miTabla th {
-    font-size: 2rem;
-    background-color: #f2f2f2;
-    text-align: center;
+    font-size: 2rem!important;
+    background-color: #f2f2f2!important;
+    text-align: center!important;
 }
 
 .miTabla tr{
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
 }
 
 .miTabla a{
-    color: blue;
+    color: blue!important;
 }
 
 .miTabla a:hover{
-    font-size: 1.6rem;
-    color: #0077c1;
-    text-decoration: underline;
+    font-size: 1.6rem!important;
+    color: #0077c1!important;
+    text-decoration: underline!important;
 }
+/* FIN TABLA */
+
+
 
 /* @media screen and (max-width: 524px) {
-
-    
-    .miTabla{
-        width: 100%;
-        max-width: 100vw;
-        overflow-x: auto;
-        white-space: nowrap;
-        table-layout: fixed;
-    }
-    
-    
-    .miTabla th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-    }
-    
-    .miTabla th {
-        font-size: 1.3rem;
-        background-color: #f2f2f2;
-        text-align: center;
-    }
-    
-    .miTabla tr{
-        font-size: 1.1rem;
-    }
-    
-    .miTabla a:hover{
-        font-size: 1.6rem;
-        color: blue;
+    .section_tabla_provincia{
+        display: none;
     }
 } */
